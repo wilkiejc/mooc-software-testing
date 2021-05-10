@@ -9,8 +9,10 @@ public class NumFinder {
 
             if(n < smallest)
                 smallest = n;
-            else if (n > largest)
+            if (n > largest)
                 largest = n;
+//            else
+//                System.out.println("caught exception for " + n);
 
         }
     }
